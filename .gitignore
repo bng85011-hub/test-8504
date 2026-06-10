@@ -32,7 +32,8 @@ ENV/
 .streamlit/secrets.toml
 
 # Streamlit 로그 출력 파일
-*.txt
+*_out*.txt
+*_err*.txt
 
 # Python 캐시
 *.pyc
